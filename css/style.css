@@ -16,6 +16,13 @@ header {
     padding: 35px 15px;
 }
 
+footer {
+    background-color: rgb(31, 33, 33);
+    left: 0;
+    right: 0;
+    padding: 55px 15px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

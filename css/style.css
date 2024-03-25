@@ -70,6 +70,13 @@ footer {
     height: 500px;
 }
 
+.img-hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: none;
+}
+
 .text-center {
     text-align: center;
 }
@@ -122,4 +129,14 @@ footer {
     font-size: 30px;
     background-color: white;
     padding: 0 10px;
+    display: none;
 }
+
+.container:hover .black-heart {
+    display: block;
+}
+
+/* QUI SBAGLIATO MODIFICA CONTAINER, AGGIUNGI DIV INTERNO CLASSE COLONNA */
+/* .container:hover .img-hover {
+    display: block;
+} */

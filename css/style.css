@@ -10,11 +10,15 @@ body{
 
 header {
     position: fixed;
-    background-color: orangered;
+    background-color: orange;
     left: 0;
     right: 0;
-    padding: 25px 15px;
+    padding: 15px 15px;
     z-index: 1;
+}
+
+main {
+    padding: 75px 0;
 }
 
 footer {
@@ -42,11 +46,13 @@ footer {
     width: calc(100%/3 - 40px);
     /* background-color: violet;
     height: 500px; */
-    margin: 50px 0 0 0;
+    /* margin: 50px 0 0 0; */
     /* border: 1px solid black; */
     position: relative;
     
 }
+
+
 
 /* UTILITY */
 
@@ -65,14 +71,12 @@ footer {
 
 
 .img-prodotto {
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 500px;
 }
 
+
 .img-hover {
-    background-repeat: no-repeat;
-    background-size: cover;
+   
     height: 500px;
     display: none;
 }
@@ -84,6 +88,22 @@ footer {
 .inline-block {
     display: inline-block;
 }
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.margin-right {
+    margin-right: 70px;
+}
+.margin-left {
+    margin-left: 50px;
+}
+
 
 /* STYLE BOOLANDO */
 
@@ -103,6 +123,7 @@ footer {
     font-weight: 700;
     padding: 5px 10px;
 }
+
 
 .eco {
     position: absolute;
@@ -132,6 +153,41 @@ footer {
     display: none;
 }
 
+.unstyled-list{
+    list-style-type: none;
+    
+}
+
+.unstyled-list li a {
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   padding: 0 3px;
+    
+}
+
+.unstyled-list li {
+    display: inline-block;
+    padding: 5px 0;
+ 
+}
+
+/* HEADER LAYOUT */
+
+
+.col25 {
+    width: 25%;
+}
+
+.col50 {
+    width: 50%;
+    text-align: center;
+}
+
+.img-logo {
+    width: 150px;
+}
+
 
 /* HOVER */
 
@@ -149,6 +205,9 @@ footer {
 }
 
 .content:hover .img-hover {
-    display: block;
+    display: inline-block;
 }
 
+.black-heart:hover {
+    color: red;
+}

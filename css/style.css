@@ -132,11 +132,22 @@ footer {
     display: none;
 }
 
+
+/* HOVER */
+
+
 .container:hover .black-heart {
     display: block;
 }
 
-/* QUI SBAGLIATO MODIFICA CONTAINER, AGGIUNGI DIV INTERNO CLASSE COLONNA */
-/* .container:hover .img-hover {
+.img-hover {
+    display: none;
+}
+
+.content:hover .img-prodotto {
+    display: none;
+}
+
+.content:hover .img-hover {
     display: block;
-} */
+}

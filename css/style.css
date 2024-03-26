@@ -101,7 +101,7 @@ footer {
     margin-right: 70px;
 }
 .margin-left {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 
@@ -153,24 +153,7 @@ footer {
     display: none;
 }
 
-.unstyled-list{
-    list-style-type: none;
-    
-}
 
-.unstyled-list li a {
-   text-decoration: none;
-   color: white;
-   font-weight: 700;
-   padding: 0 3px;
-    
-}
-
-.unstyled-list li {
-    display: inline-block;
-    padding: 5px 0;
- 
-}
 
 /* HEADER LAYOUT */
 
@@ -188,6 +171,24 @@ footer {
     width: 150px;
 }
 
+.unstyled-list{
+    list-style-type: none;
+    
+}
+
+.unstyled-list li a {
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   padding: 0 4px;
+    
+}
+
+.unstyled-list li {
+    display: inline-block;
+    padding: 5px 0;
+ 
+}
 
 /* HOVER */
 
